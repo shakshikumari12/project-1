@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin: -38px 9px;
+    padding: 2px 4px;
+}
+ul li{
+    top: 0px;
+    right: 0px; 
+}
+ul li a{
+    margin: 5px 30px;
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    font-size: 1.2rem;
+}
+.logo{
+    font-size: 2.4rem;
+}
+li :hover{
+    font-size: 1.6vw;
+    color: rgb(8, 8, 8);
+    transition: all;
+}
+ ul li:hover{
+     color: rgb(0, 0, 0);
+     cursor: pointer;
+     text-decoration: underline;
+     font-size: 1.5em;
+ } 
+ header{
+     background-image: url("img/alix.jpg");
+     height: 100vh;
+     width: 100vw;
+     background-attachment: fixed;
+     background-position: center center;
+     background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+ }
+ .header-content h1{
+     text-align: center;
+    font-family: 'Charm', cursive;
+     margin-top: 170px;
+     font-size: 5.4rem;
+     color: rgb(5, 5, 5);
+ }
+ .btn{
+padding: 8px 22px;
+margin: 54px 233px;
+background-color: black;
+color: white;
+border-radius: 5px;
+ }
+ .btn:hover{
+     background-color: white;
+     color: black;
+ }
+ .h-primary{
+     font-size: 2.8rem;
+     margin: 44px 6px;
+     text-align: center;
+     color: rgb(63, 61, 61);
+ }
+#center{
+    display: flex;
+
+}
+#center .box{
+
+    padding: 0px;
+    margin: 3px 60px;
+    background-color: rgb(240, 205, 205);
+}
+#center .box img{
+    height: 282px;
+    width: 304px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.h-center{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(3, 3, 3);
+    padding: 0px 10px;
+    margin: 0px 27px;
+    margin-bottom: 27px;
+
+}
+.h1-center{
+    font-family: 'Indie Flower', cursive;
+    margin: 0px 27px;
+    padding: 0px 10px;
+    color: rgb(71, 67, 67);
+    margin-bottom: 27px;
+
+}
+.container-content{
+    background-color:rgb(240, 205, 205) ;
+    height: 472px;
+    display: flex;
+    margin: 20px;
+
+}
+.item{
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+background-color: white;
+    width: 41%;
+    height: 435px;
+    margin-left: 63px;
+}
+.item img{
+    width: 225%;
+    height: 436px;
+}
+.secondary{
+    margin-top: 108px;
+    margin: 2px 5px;
+    padding: 4px 5px;
+    text-align: center;
+}
+.content{
+    font-family: 'Hubballi', cursive;
+    margin: 3px 4px;
+    padding: 3px 5px;
+    color: rgb(85, 83, 83);
+}
+.ctn{
+    margin: 76px 139px;
+    padding: 4px 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.ctn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.contacts{
+    background-color: rgb(220, 214, 214);
+    
+   
+
+}
+
+.heading{
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 4px 5px;
+}
+.form-group{
+    margin: 3px 8px;
+    padding: 11px 10px;
+    text-align: center;
+}
+.rtn{
+    margin: 41px 585px;
+    padding: 9px 39px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.rtn:hover{
+    background-color: white;
+    color: black;
+}
+.form-group input{
+        text-align: center;
+        width: 45%;
+        padding: 4px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 20px;
+        border-radius: 8px;
+}
+.foot{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.form-group{
+    display: flex;
+}
+
+
+@media only screen and (max-width=1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+}
